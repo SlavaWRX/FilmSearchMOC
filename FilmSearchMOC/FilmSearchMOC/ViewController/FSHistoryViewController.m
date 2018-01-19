@@ -67,6 +67,7 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated {
+    
     [super viewWillAppear:animated];
     [self setData];
     CoreDataManager.sharedInstance.films = [[[CoreDataManager.sharedInstance.films reverseObjectEnumerator] allObjects] mutableCopy];

@@ -16,8 +16,8 @@
 
 
 @interface FSSearchViewController () <UITableViewDelegate, UITableViewDataSource>
-@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *indicator;
 
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *indicator;
 @property (weak, nonatomic) IBOutlet UITextField *searchTextField;
 @property (weak, nonatomic) IBOutlet UIButton *searchButton;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
@@ -77,7 +77,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     RouteProperties.sharedInstance.filmForDescription = [self.films objectAtIndex:indexPath.row];
-    [CoreDataManager.sharedInstance saveContextWithTitle:[self.films objectAtIndex:indexPath.row]];
+    if([CoreDataManager.sharedInstance checkIsExist:RouteProperties.sharedInstance.filmForDescription.filmTitle]) {
+        [CoreDataManager.sharedInstance saveContextWithTitle:[self.films objectAtIndex:indexPath.row]];
+        }
+   
     [self performSegueWithIdentifier:@"goDescription" sender:self];
 }
 

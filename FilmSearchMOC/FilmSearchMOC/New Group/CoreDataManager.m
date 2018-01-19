@@ -53,4 +53,21 @@
     }
 }
 
+-(BOOL) checkIsExist: (NSString*) title {
+    NSManagedObjectContext *managedContext = ((AppDelegate*)[[UIApplication sharedApplication] delegate]).persistentContainer.viewContext;
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"FSHistoryManagedModel"];
+    [request setPredicate:[NSPredicate predicateWithFormat:@"title = %@", title]];
+    [request setFetchLimit:1];
+    NSUInteger count = [managedContext countForFetchRequest:request error:nil];
+    if (count == NSNotFound) {
+        // some error occurred
+    }
+    else {
+        if (count == 0) {
+            return YES;
+        }
+    }
+    return NO;
+}
+
 @end

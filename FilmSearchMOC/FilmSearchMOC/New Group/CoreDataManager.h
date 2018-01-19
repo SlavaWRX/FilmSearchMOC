@@ -12,7 +12,9 @@
 #import "JSONFilmModel.h"
 
 @interface CoreDataManager : NSObject
+
 - (void) loadContext;
+-(BOOL) checkIsExist: (NSString*) title;
 + (instancetype)sharedInstance;
 
 - (void) saveContextWithTitle:(JSONFilmModel*)filmForSave;

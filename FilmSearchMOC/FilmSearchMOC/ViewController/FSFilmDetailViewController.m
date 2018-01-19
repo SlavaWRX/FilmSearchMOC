@@ -12,6 +12,7 @@
 #import "RouteProperties.h"
 
 @interface FSFilmDetailViewController ()
+
 @property (weak, nonatomic) IBOutlet UIImageView *filmPosterImage;
 @property (weak, nonatomic) IBOutlet UILabel *filmTitleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *filmYearLabel;

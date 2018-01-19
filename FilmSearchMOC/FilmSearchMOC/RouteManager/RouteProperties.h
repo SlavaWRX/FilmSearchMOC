@@ -10,7 +10,10 @@
 #import "JSONFilmModel.h"
 
 @interface RouteProperties : NSObject
+
 +(instancetype)sharedInstance;
 
 @property (nonatomic, strong) JSONFilmModel* filmForDescription;
+
+
 @end
