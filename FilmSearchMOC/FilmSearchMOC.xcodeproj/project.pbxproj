@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A68EAADC17FF029E5B4ABCE /* libPods-FilmSearchMOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2087FB891D3120BF3F4E0F /* libPods-FilmSearchMOC.a */; };
+		F925D4F0200E0DAE00931E7D /* FSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D4EF200E0DAE00931E7D /* FSTabBarController.m */; };
+		F925D4F4200E1F5E00931E7D /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D4F3200E1F5E00931E7D /* RequestManager.m */; };
+		F925D504200F4BFA00931E7D /* JSONFilmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D503200F4BFA00931E7D /* JSONFilmModel.m */; };
+		F925D508200F6D9F00931E7D /* RouteProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D507200F6D9F00931E7D /* RouteProperties.m */; };
+		F925D50A200F73B300931E7D /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F925D509200F73B300931E7D /* History.storyboard */; };
+		F925D518200F872700931E7D /* FilmSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F925D516200F872700931E7D /* FilmSearch.xcdatamodeld */; };
+		F925D51C200F9B9200931E7D /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D51B200F9B9200931E7D /* CoreDataManager.m */; };
+		F925D51F2010B3BC00931E7D /* FSHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D51E2010B3BC00931E7D /* FSHistoryViewController.m */; };
+		F925D5222011F53800931E7D /* FSHistoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D5212011F53800931E7D /* FSHistoryDetailViewController.m */; };
+		F9D061F7200786B00019E8C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D061F6200786B00019E8C0 /* AppDelegate.m */; };
+		F9D061FD200786B00019E8C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D061FB200786B00019E8C0 /* Main.storyboard */; };
+		F9D06202200786B00019E8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D06201200786B00019E8C0 /* Assets.xcassets */; };
+		F9D06205200786B00019E8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D06203200786B00019E8C0 /* LaunchScreen.storyboard */; };
+		F9D06208200786B00019E8C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D06207200786B00019E8C0 /* main.m */; };
+		F9D06211200787700019E8C0 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D06210200787700019E8C0 /* Search.storyboard */; };
+		F9D0621D2007A7CE0019E8C0 /* FSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D0621C2007A7CE0019E8C0 /* FSNavigationController.m */; };
+		F9D062212007A8B80019E8C0 /* FSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D062202007A8B80019E8C0 /* FSSearchViewController.m */; };
+		F9D062242007A8EC0019E8C0 /* FSFilmDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D062232007A8EC0019E8C0 /* FSFilmDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48A52C21ECAEE59DC5542E01 /* Pods-FilmSearchMOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmSearchMOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FilmSearchMOC/Pods-FilmSearchMOC.debug.xcconfig"; sourceTree = "<group>"; };
+		CD2087FB891D3120BF3F4E0F /* libPods-FilmSearchMOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FilmSearchMOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1DD2DE734D6C46CF95F07C /* Pods-FilmSearchMOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmSearchMOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-FilmSearchMOC/Pods-FilmSearchMOC.release.xcconfig"; sourceTree = "<group>"; };
+		F925D4EE200E0DAE00931E7D /* FSTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSTabBarController.h; sourceTree = "<group>"; };
+		F925D4EF200E0DAE00931E7D /* FSTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSTabBarController.m; sourceTree = "<group>"; };
+		F925D4F2200E1F5E00931E7D /* RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		F925D4F3200E1F5E00931E7D /* RequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		F925D502200F4BFA00931E7D /* JSONFilmModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONFilmModel.h; sourceTree = "<group>"; };
+		F925D503200F4BFA00931E7D /* JSONFilmModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONFilmModel.m; sourceTree = "<group>"; };
+		F925D506200F6D9F00931E7D /* RouteProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouteProperties.h; sourceTree = "<group>"; };
+		F925D507200F6D9F00931E7D /* RouteProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouteProperties.m; sourceTree = "<group>"; };
+		F925D509200F73B300931E7D /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		F925D517200F872700931E7D /* FilmSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FilmSearch.xcdatamodel; sourceTree = "<group>"; };
+		F925D51A200F9B9200931E7D /* CoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		F925D51B200F9B9200931E7D /* CoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		F925D51D2010B3BC00931E7D /* FSHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSHistoryViewController.h; sourceTree = "<group>"; };
+		F925D51E2010B3BC00931E7D /* FSHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSHistoryViewController.m; sourceTree = "<group>"; };
+		F925D5202011F53800931E7D /* FSHistoryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSHistoryDetailViewController.h; sourceTree = "<group>"; };
+		F925D5212011F53800931E7D /* FSHistoryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSHistoryDetailViewController.m; sourceTree = "<group>"; };
+		F9A8F80C200CB96900742A20 /* FilmSearchMOC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilmSearchMOC-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9D061F2200786B00019E8C0 /* FilmSearchMOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmSearchMOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D061F5200786B00019E8C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9D061F6200786B00019E8C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9D061FC200786B00019E8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9D06201200786B00019E8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9D06204200786B00019E8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9D06206200786B00019E8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D06207200786B00019E8C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9D06210200787700019E8C0 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		F9D0621B2007A7CE0019E8C0 /* FSNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSNavigationController.h; sourceTree = "<group>"; };
+		F9D0621C2007A7CE0019E8C0 /* FSNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSNavigationController.m; sourceTree = "<group>"; };
+		F9D0621F2007A8B80019E8C0 /* FSSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSearchViewController.h; sourceTree = "<group>"; };
+		F9D062202007A8B80019E8C0 /* FSSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSearchViewController.m; sourceTree = "<group>"; };
+		F9D062222007A8EC0019E8C0 /* FSFilmDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSFilmDetailViewController.h; sourceTree = "<group>"; };
+		F9D062232007A8EC0019E8C0 /* FSFilmDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSFilmDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9D061EF200786B00019E8C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68EAADC17FF029E5B4ABCE /* libPods-FilmSearchMOC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		679E980EB5466889E968D1E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48A52C21ECAEE59DC5542E01 /* Pods-FilmSearchMOC.debug.xcconfig */,
+				CF1DD2DE734D6C46CF95F07C /* Pods-FilmSearchMOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3F03C2159DE1D7B6D34F289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD2087FB891D3120BF3F4E0F /* libPods-FilmSearchMOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F925D4ED200E0D6900931E7D /* TapBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F925D4EE200E0DAE00931E7D /* FSTabBarController.h */,
+				F925D4EF200E0DAE00931E7D /* FSTabBarController.m */,
+			);
+			path = TapBarController;
+			sourceTree = "<group>";
+		};
+		F925D4F1200E1F4000931E7D /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				F925D4F2200E1F5E00931E7D /* RequestManager.h */,
+				F925D4F3200E1F5E00931E7D /* RequestManager.m */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		F925D501200E516E00931E7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F925D502200F4BFA00931E7D /* JSONFilmModel.h */,
+				F925D503200F4BFA00931E7D /* JSONFilmModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F925D505200F6D8A00931E7D /* RouteManager */ = {
+			isa = PBXGroup;
+			children = (
+				F925D506200F6D9F00931E7D /* RouteProperties.h */,
+				F925D507200F6D9F00931E7D /* RouteProperties.m */,
+			);
+			path = RouteManager;
+			sourceTree = "<group>";
+		};
+		F925D50B200F7AE800931E7D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F925D516200F872700931E7D /* FilmSearch.xcdatamodeld */,
+				F925D519200F877000931E7D /* Models */,
+				F925D51A200F9B9200931E7D /* CoreDataManager.h */,
+				F925D51B200F9B9200931E7D /* CoreDataManager.m */,
+			);
+			name = CoreData;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F925D519200F877000931E7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9D061E9200786B00019E8C0 = {
+			isa = PBXGroup;
+			children = (
+				F9D061F4200786B00019E8C0 /* FilmSearchMOC */,
+				F9D061F3200786B00019E8C0 /* Products */,
+				F9A8F80C200CB96900742A20 /* FilmSearchMOC-Bridging-Header.h */,
+				679E980EB5466889E968D1E5 /* Pods */,
+				C3F03C2159DE1D7B6D34F289 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9D061F3200786B00019E8C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9D061F2200786B00019E8C0 /* FilmSearchMOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9D061F4200786B00019E8C0 /* FilmSearchMOC */ = {
+			isa = PBXGroup;
+			children = (
+				F925D50B200F7AE800931E7D /* CoreData */,
+				F925D505200F6D8A00931E7D /* RouteManager */,
+				F925D501200E516E00931E7D /* Model */,
+				F925D4F1200E1F4000931E7D /* RequestManager */,
+				F9D0620E200786C90019E8C0 /* AppDelegate */,
+				F9D0620F200787360019E8C0 /* Storyboards */,
+				F9D062142007A4C60019E8C0 /* NavigationController */,
+				F925D4ED200E0D6900931E7D /* TapBarController */,
+				F9D0621E2007A87E0019E8C0 /* ViewController */,
+				F9D06201200786B00019E8C0 /* Assets.xcassets */,
+				F9D061FB200786B00019E8C0 /* Main.storyboard */,
+				F9D06203200786B00019E8C0 /* LaunchScreen.storyboard */,
+				F9D06206200786B00019E8C0 /* Info.plist */,
+				F9D06207200786B00019E8C0 /* main.m */,
+			);
+			path = FilmSearchMOC;
+			sourceTree = "<group>";
+		};
+		F9D0620E200786C90019E8C0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F9D061F5200786B00019E8C0 /* AppDelegate.h */,
+				F9D061F6200786B00019E8C0 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F9D0620F200787360019E8C0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F9D06210200787700019E8C0 /* Search.storyboard */,
+				F925D509200F73B300931E7D /* History.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F9D062142007A4C60019E8C0 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				F9D0621B2007A7CE0019E8C0 /* FSNavigationController.h */,
+				F9D0621C2007A7CE0019E8C0 /* FSNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		F9D0621E2007A87E0019E8C0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F9D0621F2007A8B80019E8C0 /* FSSearchViewController.h */,
+				F9D062202007A8B80019E8C0 /* FSSearchViewController.m */,
+				F9D062222007A8EC0019E8C0 /* FSFilmDetailViewController.h */,
+				F9D062232007A8EC0019E8C0 /* FSFilmDetailViewController.m */,
+				F925D51D2010B3BC00931E7D /* FSHistoryViewController.h */,
+				F925D51E2010B3BC00931E7D /* FSHistoryViewController.m */,
+				F925D5202011F53800931E7D /* FSHistoryDetailViewController.h */,
+				F925D5212011F53800931E7D /* FSHistoryDetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9D061F1200786B00019E8C0 /* FilmSearchMOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D0620B200786B00019E8C0 /* Build configuration list for PBXNativeTarget "FilmSearchMOC" */;
+			buildPhases = (
+				8AE6C4BD603AC8193ED2676E /* [CP] Check Pods Manifest.lock */,
+				F9D061EE200786B00019E8C0 /* Sources */,
+				F9D061EF200786B00019E8C0 /* Frameworks */,
+				F9D061F0200786B00019E8C0 /* Resources */,
+				FB2BABE32358C6CBB08A8317 /* [CP] Embed Pods Frameworks */,
+				083301732F509B90EB7F9CA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilmSearchMOC;
+			productName = FilmSearchMOC;
+			productReference = F9D061F2200786B00019E8C0 /* FilmSearchMOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9D061EA200786B00019E8C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Viacheslav Goroshniuk";
+				TargetAttributes = {
+					F9D061F1200786B00019E8C0 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9D061ED200786B00019E8C0 /* Build configuration list for PBXProject "FilmSearchMOC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9D061E9200786B00019E8C0;
+			productRefGroup = F9D061F3200786B00019E8C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9D061F1200786B00019E8C0 /* FilmSearchMOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9D061F0200786B00019E8C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D06205200786B00019E8C0 /* LaunchScreen.storyboard in Resources */,
+				F9D06202200786B00019E8C0 /* Assets.xcassets in Resources */,
+				F9D06211200787700019E8C0 /* Search.storyboard in Resources */,
+				F925D50A200F73B300931E7D /* History.storyboard in Resources */,
+				F9D061FD200786B00019E8C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		083301732F509B90EB7F9CA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FilmSearchMOC/Pods-FilmSearchMOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE6C4BD603AC8193ED2676E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FilmSearchMOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2BABE32358C6CBB08A8317 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FilmSearchMOC/Pods-FilmSearchMOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9D061EE200786B00019E8C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D062212007A8B80019E8C0 /* FSSearchViewController.m in Sources */,
+				F925D5222011F53800931E7D /* FSHistoryDetailViewController.m in Sources */,
+				F925D508200F6D9F00931E7D /* RouteProperties.m in Sources */,
+				F925D51F2010B3BC00931E7D /* FSHistoryViewController.m in Sources */,
+				F925D4F0200E0DAE00931E7D /* FSTabBarController.m in Sources */,
+				F9D0621D2007A7CE0019E8C0 /* FSNavigationController.m in Sources */,
+				F925D4F4200E1F5E00931E7D /* RequestManager.m in Sources */,
+				F925D51C200F9B9200931E7D /* CoreDataManager.m in Sources */,
+				F9D06208200786B00019E8C0 /* main.m in Sources */,
+				F925D504200F4BFA00931E7D /* JSONFilmModel.m in Sources */,
+				F925D518200F872700931E7D /* FilmSearch.xcdatamodeld in Sources */,
+				F9D062242007A8EC0019E8C0 /* FSFilmDetailViewController.m in Sources */,
+				F9D061F7200786B00019E8C0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9D061FB200786B00019E8C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9D061FC200786B00019E8C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9D06203200786B00019E8C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9D06204200786B00019E8C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9D06209200786B00019E8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9D0620A200786B00019E8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9D0620C200786B00019E8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A52C21ECAEE59DC5542E01 /* Pods-FilmSearchMOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CX72D5RZN;
+				INFOPLIST_FILE = FilmSearchMOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viacheslavgoroshniuk.FilmSearchMOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FilmSearchMOC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9D0620D200786B00019E8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1DD2DE734D6C46CF95F07C /* Pods-FilmSearchMOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CX72D5RZN;
+				INFOPLIST_FILE = FilmSearchMOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viacheslavgoroshniuk.FilmSearchMOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FilmSearchMOC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9D061ED200786B00019E8C0 /* Build configuration list for PBXProject "FilmSearchMOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D06209200786B00019E8C0 /* Debug */,
+				F9D0620A200786B00019E8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D0620B200786B00019E8C0 /* Build configuration list for PBXNativeTarget "FilmSearchMOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D0620C200786B00019E8C0 /* Debug */,
+				F9D0620D200786B00019E8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F925D516200F872700931E7D /* FilmSearch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F925D517200F872700931E7D /* FilmSearch.xcdatamodel */,
+			);
+			currentVersion = F925D517200F872700931E7D /* FilmSearch.xcdatamodel */;
+			path = FilmSearch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9D061EA200786B00019E8C0 /* Project object */;
+}
